@@ -1,11 +1,6 @@
-# MAT281 - Aplicaciones de la Matemática en la Ingeniería
+# Bienvenidos a MAT281!
 
-
-![example workflow](https://github.com/fralfaro/MAT281_2022/actions/workflows/documentation.yml/badge.svg)
-<a href="https://fralfaro.github.io/MAT281_2022/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
-<a href="https://drive.google.com/drive/folders/1igwLaAggoI3anUNrize8CzAP3nhu-I5h"><img alt="Link a la Documentación" src="https://img.shields.io/badge/clases-link-brightgreen"></a>
-<a href="https://docs.google.com/spreadsheets/d/1AsAuJ6vrmiatlWHxZE8Icyf876HHkrwj/edit?usp=sharing&ouid=101134559892465590295&rtpof=true&sd=true"><img alt="Link a la Documentación" src="https://img.shields.io/badge/notas-link-brightgreen"></a>
-
+MAT281 - Aplicaciones de la Matemática en la Ingeniería (USM)
 
 ## Identificación de la asignatura
 
@@ -59,9 +54,9 @@ El estudiante adquiere competencias/destrezas básicas como Data Scientist (ocup
 - Grupal (grupos fijos).
 - Entregas fuera del plazo descuentan 25 puntos por día (parte entera).  
 
-### Nota Final
-
-La nota final será el promedio ponderado entre los laboratorios, tareas y el proyecto final del curso.
+### Nota Final 
+Sea $\bar{n_l}$ promedio de notas del laboratorio, $\bar{n_t}$ : promedio de notas de las
+tareas, $n_p$ : nota del proyecto. Entonces la nota final del curso ($N_f$ ) será:
 
 $$
 N_f = 0.25\bar{n_l} + 0.35\bar{n_t} + 0.4n_p
