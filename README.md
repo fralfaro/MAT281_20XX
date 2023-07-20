@@ -2,6 +2,9 @@
 
 ![example workflow](https://github.com/fralfaro/MAT281_20XX/actions/workflows/documentation.yml/badge.svg)
 <a href="https://fralfaro.github.io/MAT281_20XX/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
+<a href=""><img alt="Link a la Documentación" src="https://img.shields.io/badge/clases-link-brightgreen"></a>
+<a href=""><img alt="Link a la Documentación" src="https://img.shields.io/badge/notas-link-brightgreen"></a>
+
 
 ## Identificación de la asignatura
 
