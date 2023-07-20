@@ -1,7 +1,7 @@
 # MAT281 - Aplicaciones de la Matemática en la Ingeniería
 
-![example workflow](https://github.com/fralfaro/MAT281_2022/actions/workflows/documentation.yml/badge.svg)
-<a href="https://fralfaro.github.io/MAT281_2022/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
+![example workflow](https://github.com/fralfaro/MAT281_20XX/actions/workflows/documentation.yml/badge.svg)
+<a href="https://fralfaro.github.io/MAT281_20XX/"><img alt="Link a la Documentación" src="https://img.shields.io/badge/docs-link-brightgreen"></a>
 
 ## Identificación de la asignatura
 
@@ -43,16 +43,16 @@ El estudiante adquiere competencias/destrezas básicas como Data Scientist (ocup
 - Mensual.
 - Individual.
 - Plazo:
-  - $T_1$: 31 de Octubre 2022.
-  - $T_2$: 05 de Diciembre 2022.
+  - $T_1$: XX de Octubre 20XX.
+  - $T_2$: XX de Diciembre 20XX.
 - Entregas fuera del plazo descuentan 25 puntos por día (parte entera). 
     - Por ejemplo, un retraso de 15 minutos cuenta como un día y descuenta 25 puntos.  
       
 
 ### Proyecto 
 - Semestral
-- Plazo: final del curso (01 de Diciembre 2022).
-- Grupal (grupos fijos).
+- Plazo: final del curso (XX de Diciembre 20XX).
+- Individual.
 - Entregas fuera del plazo descuentan 25 puntos por día (parte entera).  
 
 ### Nota Final
@@ -60,7 +60,7 @@ El estudiante adquiere competencias/destrezas básicas como Data Scientist (ocup
 La nota final será el promedio ponderado entre los laboratorios, tareas y el proyecto final del curso.
 
 $$
-N_f = 0.25\bar{n_l} + 0.35\bar{n_t} + 0.4n_p
+N_f = 0.3\bar{n_l} + 0.35\bar{n_t} + 0.35n_p
 $$
 
 > **¡Importante!**: Todos los entregables se deben subir al repositorio personal del estudiante (en GitHub). Las notas se trataran de actualizar al final de cada mes.
