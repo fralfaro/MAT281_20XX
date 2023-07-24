@@ -2205,17 +2205,19 @@ import os</div>
             </clipboard-copy>
         </div>
             <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># cargar datos</span>
-<span class="n">pokemon_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;https://raw.githubusercontent.com/fralfaro/MAT281_2022/main/docs/lectures/data_manipulation/data_manipulation/data/pokemon.csv&quot;</span><span class="p">,</span>
-    <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span>
-<span class="p">)</span>
+
+<span class="n">url</span><span class="o">=</span><span class="s1">&#39;https://drive.google.com/file/d/1uVJcfTBWemOTfxmjWTqALfUpIMdH3LVV/view?usp=drive_link&#39;</span>
+<span class="n">url</span><span class="o">=</span><span class="s1">&#39;https://drive.google.com/uc?id=&#39;</span> <span class="o">+</span> <span class="n">url</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="n">pokemon_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
 <span class="n">pokemon_data</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 <div id="cell-2" class="clipboard-copy-txt"># cargar datos
-pokemon_data = pd.read_csv(
-    "https://raw.githubusercontent.com/fralfaro/MAT281_2022/main/docs/lectures/data_manipulation/data_manipulation/data/pokemon.csv",
-    sep=","
-)
+
+url='https://drive.google.com/file/d/1uVJcfTBWemOTfxmjWTqALfUpIMdH3LVV/view?usp=drive_link'
+url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+
+pokemon_data = pd.read_csv(url, sep=",")
 pokemon_data.head()</div>
     
         </div>
@@ -2408,7 +2410,7 @@ pokemon_data.head()</div>
 
 
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr">
-<pre>C:\Users\franc\AppData\Local\Temp\ipykernel_32268\2937267274.py:2: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.
+<pre>C:\Users\franc\AppData\Local\Temp\ipykernel_7740\2937267274.py:2: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will *not* be treated as literal strings when regex=True.
   pokemon_data.columns = pokemon_data.columns.str.lower().str.replace(&#39;.&#39;,&#39;_&#39;).str.replace(&#39; &#39;,&#39;_&#39;) #change into upper case
 </pre>
 </div>

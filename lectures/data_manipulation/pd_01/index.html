@@ -4747,17 +4747,19 @@ df_dct</div>
             </clipboard-copy>
         </div>
             <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># load data</span>
-<span class="n">player_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s1">&#39;https://raw.githubusercontent.com/fralfaro/MAT281_2022/main/docs/lectures/data_manipulation/data_manipulation/data/player_data.csv&#39;</span><span class="p">,</span> <span class="c1"># path</span>
-    <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span> <span class="c1"># separation</span>
-<span class="p">)</span>
+
+<span class="n">url</span><span class="o">=</span><span class="s1">&#39;https://drive.google.com/file/d/1V7k6JxEn7aJuWHmQH0ZxzbZTNZJeMkvs/view?usp=drive_link&#39;</span>
+<span class="n">url</span><span class="o">=</span><span class="s1">&#39;https://drive.google.com/uc?id=&#39;</span> <span class="o">+</span> <span class="n">url</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="n">player_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span> <span class="p">)</span>
 <span class="n">player_data</span>
 </pre></div>
 <div id="cell-37" class="clipboard-copy-txt"># load data
-player_data = pd.read_csv(
-    'https://raw.githubusercontent.com/fralfaro/MAT281_2022/main/docs/lectures/data_manipulation/data_manipulation/data/player_data.csv', # path
-    sep="," # separation
-)
+
+url='https://drive.google.com/file/d/1V7k6JxEn7aJuWHmQH0ZxzbZTNZJeMkvs/view?usp=drive_link'
+url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+
+player_data = pd.read_csv(url, sep="," )
 player_data</div>
     
         </div>

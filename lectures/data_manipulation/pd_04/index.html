@@ -2262,17 +2262,19 @@ import os</div>
             </clipboard-copy>
         </div>
             <div class="highlight-ipynb hl-python"><pre><span></span><span class="c1"># formato long</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span>
-    <span class="s2">&quot;https://raw.githubusercontent.com/fralfaro/MAT281_2022/main/docs/lectures/data_manipulation/data_manipulation/data/terremotos.csv&quot;</span><span class="p">,</span>
-    <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span>
-<span class="p">)</span>
+
+<span class="n">url</span><span class="o">=</span><span class="s1">&#39;https://drive.google.com/file/d/1Knut8vY4wuDFrO3bEjlQVUwq-CaRNJpu/view?usp=drive_link&#39;</span>
+<span class="n">url</span><span class="o">=</span><span class="s1">&#39;https://drive.google.com/uc?id=&#39;</span> <span class="o">+</span> <span class="n">url</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">url</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s2">&quot;,&quot;</span><span class="p">)</span>
 <span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
 </pre></div>
 <div id="cell-2" class="clipboard-copy-txt"># formato long
-df = pd.read_csv(
-    "https://raw.githubusercontent.com/fralfaro/MAT281_2022/main/docs/lectures/data_manipulation/data_manipulation/data/terremotos.csv",
-    sep=","
-)
+
+url='https://drive.google.com/file/d/1Knut8vY4wuDFrO3bEjlQVUwq-CaRNJpu/view?usp=drive_link'
+url='https://drive.google.com/uc?id=' + url.split('/')[-2]
+
+df = pd.read_csv(url, sep=",")
 df.head()</div>
     
         </div>
