@@ -3,7 +3,8 @@
 
 El **análisis exploratorio de datos** es una forma de analizar datos definido por John W. Tukey (E.D.A.: Exploratory data analysis) es el tratamiento estadístico al que se someten las muestras recogidas durante un proceso de investigación en cualquier campo científico. Para mayor rapidez y precisión, todo el proceso suele realizarse por medios informáticos, con aplicaciones específicas para el tratamiento estadístico. 
 
-![](images/eda.png)
+<img src="https://drive.google.com/uc?export=view&id=1_mITsBerLwOSokRqfZLu3VAlR0rD9r2W" width = "500" align="center"/>
+
 
 
 ## Diagrama de flujo del proceso de ciencia de datos
@@ -18,8 +19,7 @@ Los objetivos de EDA son:
 
 Muchas técnicas de EDA se han adoptado en la minería de datos. También se les está enseñando a los jóvenes estudiantes como una forma de presentarles el pensamiento estadístico.
 
-<img src="https://drive.google.com/uc?export=view&id=1_mITsBerLwOSokRqfZLu3VAlR0rD9r2W" width = "400" align="center"/>
-
+<img src="https://drive.google.com/uc?export=view&id=1wDmFV3cj9TLrcoqoBVuqWybw88CL7lcO" width = "600" align="center"/>
 
 
 <!-- #region -->
