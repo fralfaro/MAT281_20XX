@@ -64,7 +64,7 @@ El estudiante adquiere competencias/destrezas básicas como Data Scientist (ocup
       
 
 ### Proyecto 
-- Semestral
+- Semestral.
 - Plazo: final del curso (XX de Diciembre 20XX).
 - Individual.
 - Entregas fuera del plazo descuentan 25 puntos por día (parte entera).  
