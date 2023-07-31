@@ -16,8 +16,8 @@ El estudiante adquiere competencias/destrezas básicas como Data Scientist (ocup
 
 ## Requisitos de entrada
 
-* Utiliza comprende conceptos básicos de Cálculo-Algebra, Probabilidad-Estadística y Optimización.
-* Utiliza comprende conceptos básicos de Python.
+* Utiliza/comprende conceptos básicos de Cálculo-Algebra, Probabilidad-Estadística y Optimización.
+* Utiliza/comprende conceptos básicos de Python.
 
 ## Contenidos temáticos
 
@@ -25,4 +25,15 @@ El estudiante adquiere competencias/destrezas básicas como Data Scientist (ocup
 * Computación científica
 * Manipulación de datos
 * Visualización
-* Machine Learning
+* Machine Learning}
+
+## Recursos para el aprendizaje
+
+* **Texto Guía**:  
+  * **Python Data Science Handbook** - Jake VanderPlas
+  
+
+* **Complementaria/Opcional**:  
+  * **Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow** - Aurélien Géron
+  * **Data Science from Scratch** - Joel Grus
+  * **Python for Data Analysis** - Wes McKinney
